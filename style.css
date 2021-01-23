@@ -1,0 +1,25 @@
+body {
+}
+#contenaire {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: 1px solid #f2f2f2;
+	background-color: violet;
+	border-radius: 20px;
+}
+#contenaire div {
+	width: 100%;
+}
+
+#contenaire div:nth-child(1) {
+	width: 100%;
+	margin: 10px;
+}
+#contenaire div:nth-child(1) img {
+	max-width: 98%;
+
+	border-radius: 20px 20px 0 0;
+}
